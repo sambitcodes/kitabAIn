@@ -76,7 +76,7 @@ users who rated them.
 
 The project uses the **Book-Crossings Dataset** from Kaggle.
 
-👉 Download here: *Kaggle link removed for packaging*
+👉 Download here: [Book-Crossings Dataset](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset)
 Unzip and place the following files in the `/data` folder:
 
 -   `Books.csv`
