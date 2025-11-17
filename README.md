@@ -10,17 +10,18 @@ This system recommends books using two powerful models:
 
 ### **1. Popularity-Based Recommendation (Weighted Rating)**
 
-Perfect for **new users with no rating history**.\
+Perfect for **new users with no rating history**.
 Recommends books that are:
 
--   Widely read\
--   Highly rated\
+-   Widely read
+-   Highly rated
 -   Rated by a large number of users
 
-Weighted rating formula used:
-$$
+**Weighted rating formula used:**
+
+```math
 WR = \left(\frac{v}{v + m}\right) R + \left(\frac{m}{v + m}\right) C
-$$
+```
 
 ------------------------------------------------------------------------
 
@@ -70,11 +71,11 @@ users who rated them.
 
 The project uses the **Book-Crossings Dataset** from Kaggle.
 
-👉 Download here: *Kaggle link removed for packaging*\
+👉 Download here: *Kaggle link removed for packaging*
 Unzip and place the following files in the `/data` folder:
 
--   `Books.csv`\
--   `Ratings.csv`\
+-   `Books.csv`
+-   `Ratings.csv`
 -   `Users.csv`
 
 ------------------------------------------------------------------------
@@ -83,9 +84,9 @@ Unzip and place the following files in the `/data` folder:
 
 ### **1. Data Preparation (Notebook 1)**
 
--   Loads raw CSV files\
--   Cleans column names\
--   Fixes `year_of_publication`\
+-   Loads raw CSV files
+-   Cleans column names
+-   Fixes `year_of_publication`
 -   Handles missing values in:
     -   `book_author`
     -   `publisher`
@@ -96,30 +97,30 @@ Unzip and place the following files in the `/data` folder:
 
 ### **2. Exploratory Data Analysis (Notebook 2)**
 
--   Uses Plotly for advanced visualizations\
+-   Uses Plotly for advanced visualizations
 -   Analyzes:
-    -   Rating distribution\
-    -   Most rated books\
-    -   Author frequency\
+    -   Rating distribution
+    -   Most rated books
+    -   Author frequency
     -   User demographics
 
 ------------------------------------------------------------------------
 
 ### **3. Weighted Rating Model (Notebook 3)**
 
--   Merges book and ratings data\
--   Filters books with sufficient number of ratings\
--   Calculates weighted rating\
+-   Merges book and ratings data
+-   Filters books with sufficient number of ratings
+-   Calculates weighted rating
 -   Saves `top_weighted_books.pkl`
 
 ------------------------------------------------------------------------
 
 ### **4. Collaborative Filtering (KNN Model) (Notebook 4)**
 
--   Filters dense data subset\
--   Builds user‑item pivot table\
--   Converts to sparse matrix\
--   Trains KNN model using cosine similarity\
+-   Filters dense data subset
+-   Builds user‑item pivot table
+-   Converts to sparse matrix
+-   Trains KNN model using cosine similarity
 -   Saves:
     -   `knn_model.pkl`
     -   `pivot_df.pkl`
@@ -192,10 +193,10 @@ Your browser will automatically open the app.
 
 ## 🎉 Features of Streamlit App
 
--   Multi‑tab interface\
--   Popular book recommendations\
--   Similar book recommendations\
--   Searchable book list\
+-   Multi‑tab interface
+-   Popular book recommendations
+-   Similar book recommendations
+-   Searchable book list
 -   Visual insights (optional if extended)
 
 ------------------------------------------------------------------------
@@ -208,7 +209,7 @@ Pull requests are welcome!
 
 ## ❤️ Acknowledgements
 
--   Book‑Crossings Dataset\
--   Kaggle\
--   Scikit‑learn\
+-   Book‑Crossings Dataset
+-   Kaggle
+-   Scikit‑learn
 -   Streamlit
