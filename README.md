@@ -1,7 +1,8 @@
-# 📚 Book Recommendation System
+# 📚 kitabAIn - a Book Recommendation System
 
-A complete, production-ready **Book Recommendation System** built using
-**Python, Pandas, Scikit‑learn, KNN**, and **Streamlit**.\
+A complete, production-ready collaborative filtering based - **Book Recommendation System** built using
+**Python, Pandas, Scikit‑learn, KNN**, and **Streamlit**.
+
 This system recommends books using two powerful models:
 
 ------------------------------------------------------------------------
