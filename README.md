@@ -178,9 +178,9 @@ Place the Kaggle dataset CSVs into:
 
 Execute in order:
 
-1.  `1_Data_Preparation.ipynb`\
-2.  `2_EDA.ipynb`\
-3.  `3_Weighted_Rating.ipynb`\
+1.  `1_Data_Preparation.ipynb`
+2.  `2_EDA.ipynb`
+3.  `3_Weighted_Rating.ipynb`
 4.  `4_Collaborative_Filtering.ipynb`
 
 This will generate model files inside `artifacts/`.
