@@ -23,6 +23,11 @@ Recommends books that are:
 WR = \left(\frac{v}{v + m}\right) R + \left(\frac{m}{v + m}\right) C
 ```
 
+-  **v**: Number of ratings the book received
+-  **m**: Minimum number of ratings required to be considered (e.g., 200)
+-  **R**: Average rating of the book
+-  **C**: Mean rating of all books
+
 ------------------------------------------------------------------------
 
 ### **2. Item-Based Collaborative Filtering (KNN Model)**
@@ -31,10 +36,10 @@ Recommends books similar to a given book by analyzing the behavior of
 users who rated them.
 
 -   Uses **cosine similarity**
--   Optimized with `scipy.sparse.csr_matrix`\
--   Trained using **NearestNeighbors** from Scikit-learn\
+-   Optimized with `scipy.sparse.csr_matrix`
+-   Trained using **NearestNeighbors** from Scikit-learn
 -   Based on dense subset:
-    -   Users with ≥ 200 ratings\
+    -   Users with ≥ 200 ratings
     -   Books with ≥ 50 ratings
 
 ------------------------------------------------------------------------
