@@ -3,8 +3,6 @@
 A complete, production-ready collaborative filtering based - **Book Recommendation System** built using
 **Python, Pandas, Scikit‑learn, KNN**, and **Streamlit**.
 
-This system recommends books using two powerful models:
-
 ------------------------------------------------------------------------
 
 ## ⭐ Recommendation Models
