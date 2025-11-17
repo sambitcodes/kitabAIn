@@ -18,8 +18,8 @@ Recommends books that are:
 -   Rated by a large number of users
 
 Weighted rating formula used:\
-\[ WR = `\left`{=tex}( rac{v}{v + m} ight) R + `\left`{=tex}(
-rac{m}{v + m} ight) C \]
+\[ WR = `\left`{=tex}(frac{v}{v + m} ight) R + `\left`{=tex}(
+frac{m}{v + m} ight) C \]
 
 ------------------------------------------------------------------------
 
